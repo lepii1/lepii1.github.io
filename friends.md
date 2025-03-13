@@ -4,7 +4,7 @@ title: Friends
 ---
 # Friends Page
 
-Berikut teman-temn saya di kelas : TI-1C:
+Berikut teman-teman saya di kelas : TI-1C:
 - [Ahmad Aulia Fahlevi](https://lepii1.github.io/)
 - [Alvi Syahril](https://alvi0syahril.github.io)
 - [Faizul Abrar](https://faizul-abrar.github.io/)
