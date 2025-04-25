@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Config YML"
-date: 2025-04-17
+date: 2026-04-17
 ---
 
 Materi tentang link dan lists pada HTML
