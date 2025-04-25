@@ -1,3 +1,199 @@
-.current {
-    color: green;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+:root{
+    --bg: #0e0e0e;
+    --text: #f1f1f1;
+    --primary : #00f7ff;
+    --secondary: #7efff5;
+    --card: #1c1c1f;
+    --hover: rgba(0, 255, 255, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: #121216;
+    padding: 16px 24px;
+    box-shadow: 0 2px 12px rgba(0, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: lightgray;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    color: var(--text);
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.nav-links a:hover,
+.nav-links a.current{
+    background-color: var(--hover);
+    transform: translateY(-5px);
+}
+
+.container{
+    max-width: 1100px;
+    margin: 60px auto 40px;
+    padding: 0 20px;
+}
+
+.container h1{
+    font-size: 2.4rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.container h2{
+    color: black;
+    margin-top: 30px;
+}
+
+.container .lastname{
+    color: var(--primary);
+}
+
+.hobbies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.hobbies li{
+    background-color: var(--card);
+    padding: 18px;
+    border-radius: 10px;
+    color: var(--secondary);
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 255,  255, 0.1);
+}
+.hobbies li:hover{
+    transform: translateY(-5px);
+}
+
+.container,
+.friends-container,
+.blog-container{
+    max-width: 1000px;
+    margin: 40px auto 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.friends-container h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.friends-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px));
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.friends-list li{
+    background-color: lightgray;
+    border-left: 5px solid black;
+    padding: 12px 16px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.friends-list li:hover{
+    transform: translateY(-2px);
+}
+
+.friends-list a{
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.friends-list a:hover{
+    text-decoration: underline;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.blog-container h1{
+    font-size: 2.3rem;
+    margin-bottom: 16px;
+}
+.blog-container a{
+    padding: 1px;
+}
+
+.blog-container p{
+    line-height: 1.8;
+    margin-bottom: 1rex;
+}
+
+.blog-container code{
+    background-color: #0d0d0f;
+    color: var(--secondary);
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.blog-container pre{
+    background-color: #0d0d0f;
+    color: #00ffea;
+    padding: 16px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin-bottom: 24px;
+    font-family: 'Courier New', monospace;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px){
+    .nav-links{
+        flex-direction: column;
+        background-color: #1e1e22;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .container{
+        padding: 0 16px;
+    }
 }

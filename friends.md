@@ -1,35 +1,39 @@
 ---
 layout: default
-title: friends
+title: Friends
 ---
-# Friends Page
 
-Berikut teman-teman saya di kelas : TI-1C:
-1. [Ahmad Aulia Fahlevi](https://lepii1.github.io/)
-2. [Alvi Syahril](https://alvi0syahril.github.io)
-3. [Faizul Abrar](https://faizul-abrar.github.io/)
-4. [Hafidz Maulana](https://hafidzmaulana28.github.io/)
-5. [Hayzar MUhaiyar](https://hayzarmuhaiyar0101.github.io/)
-6. [Faqriyadi Andika](http://faqriyadiandika.github.io)
-7. [Fathan Mubina](https://fathan-mubina.github.io/)
-8. [Hamizan Putra Zulia](https://hamizan18.github.io/)
-9. [Ilham Syahdienar](https://ilhamdienar.github.io/)
-10. [Imam Nawawi](https://imamnawawi1c.github.io/)
-11. [Irfandi](https://irfandi8.github.io/)
-12. [Kaisan Nurwaled](https://kaisan969.github.io)
-13. [M. Hafidz Firansyah](https://mhafidzfiransyah.github.io)
-14. [M. Iqbal Sayut](https://iqbalsayuti0.github.io/)
-15. [Muhammad Fathurrahman](https://fyou00.github.io/)
-16. [Bunga Alfa Zahrah](https://bunga-hub.github.io/)
-17. [Deva Risny](http://devarisny.github.io)
-18. [Firdhila Ananda Syahputri](https://firdhilaananda.github.io)
-19. [Izzati Nurvira](https://izzati31.github.io/)
-20. [Jelita Anggraini](https://jexiee99.github.io)
-21. [Khairatil Aini](https://khairatilaini.github.io/)
-22. [Khalisa Zafira](https://khalisha0zafira.github.io/)
-23. [Lediana Berasa](https://ledianaberasa.github.io/)
-24. [Linda Wati](https://lindawati26.github.io/)
-25. [Liza Aulia Siregar](https://lizaauliasiregar.github.io/)
-26. [Maila Aziza](https://mailaazizaa.github.io/)
-27. [Maisha Zahrani](https://maishazahrani.github.io/)
-28. [Malia Ulfa](https://maliaulfa2.github.io/)
+<div class="friends-container">
+  <h1>Friends Page</h1>
+<p>Berikut teman-teman saya di kelas : TI-1C</p>
+<ul class="friends-list">
+  <li><a href="https://lepii1.github.io/">Ahmad Aulia Fahlevi</a></li>
+  <li><a href="https://alvi0syahril.github.io">Alvi Syahril</a></li>
+  <li><a href="https://faizul-abrar.github.io/">Faizul Abrar</a></li>
+  <li><a href="https://hafidzmaulana28.github.io/">Hafidz Maulana</a></li>
+  <li><a href="https://hayzarmuhaiyar0101.github.io/">Hayzar MUhaiyar</a></li>
+  <li><a href="http://faqriyadiandika.github.io">Faqriyadi Andika</a></li>
+  <li><a href="https://fathan-mubina.github.io/">Fathan Mubina</a></li>
+  <li><a href="https://hamizan18.github.io/">Hamizan Putra Zulia</a></li>
+  <li><a href="https://ilhamdienar.github.io/">Ilham Syahdienar</a></li>
+  <li><a href="https://imamnawawi1c.github.io/">Imam Nawawi</a></li>
+  <li><a href="https://irfandi8.github.io/">Irfandi</a></li>
+  <li><a href="https://kaisan969.github.io">Kaisan Nurwaled</a></li>
+  <li><a href="https://mhafidzfiransyah.github.io">M. Hafidz Firansyah</a></li>
+  <li><a href="https://iqbalsayuti0.github.io/">M. Iqbal Sayut</a></li>
+  <li><a href="https://fyou00.github.io/">Muhammad Fathurrahman</a></li>
+  <li><a href="https://bunga-hub.github.io/">Bunga Alfa Zahrah</a></li>
+  <li><a href="http://devarisny.github.io">Deva Risny</a></li>
+  <li><a href="https://firdhilaananda.github.io">Firdhila Ananda Syahputri</a></li>
+  <li><a href="https://izzati31.github.io/">Izzati Nurvira</a></li>
+  <li><a href="https://jexiee99.github.io">Jelita Anggraini</a></li>
+  <li><a href="https://khairatilaini.github.io/">Khairatil Aini</a></li>
+  <li><a href="https://khalisha0zafira.github.io/">Khalisa Zafira</a></li>
+  <li><a href="https://ledianaberasa.github.io/">Lediana Berasa</a></li>
+  <li><a href="https://lindawati26.github.io/">Linda Wati</a></li>
+  <li><a href="https://lizaauliasiregar.github.io/">Liza Aulia Siregar</a></li>
+  <li><a href="https://mailaazizaa.github.io/">Maila Aziza</a></li>
+  <li><a href="https://maishazahrani.github.io/">Maisha Zahrani</a></li>
+  <li><a href="https://maliaulfa2.github.io/">Malia Ulfa</a></li>
+</ul>
+</div>
