@@ -1,6 +1,6 @@
 url: 'https://lepii1.github.io/'
 
-plugins []:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
