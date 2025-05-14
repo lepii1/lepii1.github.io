@@ -1,14 +1,24 @@
-<nav class="navbar">
-    <div class="nav-container">
-
-        <div class="logo">Workshop Web Dasar</div>
-    
-        <div class="nav-links">
+<header class="responsive-header">
+        <!-- <div class="header"> -->
+            <div class="logo">Workshop Web Dasar</div>
+        <!-- </div> -->
+         <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+         </button>
+</header>
+<aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+        <!-- <div class="sidebar-nav"> -->
+        <ul>
         {% for item in site.data.navigation %}
+        <li class="active">
          <a href="{{ item.link }}" {% if page.url == item.link %} class="current"{% endif %}>
             {{ item.name | upcase }}
          </a>
+        </li>
             {% endfor %}
+        </ul>
         </div>
     </div>
 </nav>
+</aside>
