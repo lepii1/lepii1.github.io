@@ -23,19 +23,6 @@ body{
     min-height: 100vh;
 }
 
-// header {
-//     // display: flex;
-//     // margin-bottom: 20px;
-//     // box-shadow: 0 2px 12px rgba(0, 255, 255, 0.1);
-
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     background-color: white;
-//     padding: 20px;
-//     z-index: 100;
-// }
 
 .header-container{
     max-width: 1100px;
@@ -76,15 +63,7 @@ body{
 
 .sidebar {
    background-color: var(--card);
-//      color: lightgray;
-//      width: 200px;
-//      display: flex;
-//     flex-direction: column;
-//      height: 100vh;
    padding: 85px 15px;
-//    box-shadow: 0 2px 12px rgba(0, 255, 255, 0.1);
-//    position: sticky;
-//    top: 0;
    width: 200px;
 }
 
@@ -103,54 +82,10 @@ body{
 }
 
 .sidebar-nav li a:hover,
-.sidebar-nav li.current {
+.sidebar-nav li a.current {
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateY(-5px);
 }
-
-
-// .navbar{
-//     background-color: #121216;
-//     padding: 16px 24px;
-//     box-shadow: 0 2px 12px rgba(0, 255, 255, 0.1);
-//     position: sticky;
-//     top: 0;
-//     z-index: 1000;
-// }
-
-// .nav-container{
-//     max-width: 1100px;
-//     margin: auto;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-// }
-
-// .logo{
-//     font-size: 1.6rem;
-//     font-weight: 600;
-//     color: lightgray;
-// }
-
-// .nav-links{
-//     display: flex;
-//     gap: 20px;
-// }
-
-// .nav-links a{
-//     color: var(--text);
-//     text-decoration: none;
-//     padding: 8px 14px;
-//     border-radius: 6px;
-//     transition: 0.3s;
-//     text-align: center;
-// }
-
-// .nav-links a:hover,
-// .nav-links a.current{
-//     background-color: var(--hover);
-//     transform: translateY(-5px);
-// }
 
 .container{
     max-width: 1100px;
@@ -181,17 +116,16 @@ button {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 16px;
-    // list-style: none;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
 .hobbies {
     list-style-type: none;
-    // width: 50%;
-    // display: flex;
-    // flex-wrap: wrap;
-
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 20px 0;
 }
 .hobbies li a {
     background-color: var(--card);
@@ -200,6 +134,7 @@ button {
     color: lightgray;
     font-weight: 500;
 }
+
 .hobbies li a:hover{
     transform: translateY(-5px);
 }
@@ -220,8 +155,6 @@ button {
 }
 
 .friends-list{
-    // display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(260px));
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
