@@ -112,6 +112,16 @@ button {
     padding: 10px;
 }
 
+.hobbies {
+    list-style-type: none;
+    // width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0;
+    margin: 20px 0;
+}
+
 .hobbies a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -120,21 +130,16 @@ button {
     margin-bottom: 20px;
 }
 
-.hobbies {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 20px 0;
-}
 .hobbies li a {
     background-color: var(--card);
     padding: 18px;
     border-radius: 10px;
     color: lightgray;
     font-weight: 500;
+    // display: inline-block;
+    transition: transform 0.2s;
+    text-decoration: none;
 }
-
 .hobbies li a:hover{
     transform: translateY(-5px);
 }
