@@ -1,5 +1,5 @@
 ---
-layout: student
+layout: people
 short_name: Lepi
 name: Ahmad Aulia Fahlevi
 nim: 2024573010077
