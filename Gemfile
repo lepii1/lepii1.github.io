@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 # gem "rails"
 
+gem 'sass-embedded', '< 1.89.0'
 gem "logger"
 gem "public_suffix", "6.0.2"
 gem "rouge", "4.5.2"
