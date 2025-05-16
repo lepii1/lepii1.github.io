@@ -7,6 +7,19 @@ function toggleMenu() {
     sidebar.classList.toggle('active');
 }
 
+function toggleMobileSidebar() {
+  const sidebar = document.getElementById('mobile-sidebar');
+  const backdrop = document.getElementById('backdrop');
+
+  const isOpen = sidebar.classList.contains('active');
+
+  sidebar.classList.toggle('active');
+  backdrop.classList.toggle('show');
+  // const sidebar = document.getElementById('mobile-sidebar');
+  // sidebar.classList.toggle('-translate-x-full');
+  // sidebar.classList.toggle('translate-x-0');
+}
+
   document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.getElementById("theme-toggle");
     const iconImg = document.getElementById("theme-icon");
