@@ -1,5 +1,14 @@
 url: 'https://lepii1.github.io/'
 
+github_username: lepii1
+
+collections:
+  students:
+    output: true
+    permalink: /students/:name/
+    title: Students
+    description: List of students in the class.
+    
 plugins:
   - jekyll-feed
   - jekyll-sitemap

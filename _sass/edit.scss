@@ -123,6 +123,7 @@ body{
     font-size: 2.4rem;
     color: black;
     margin-bottom: 20px;
+    // padding-top: 50px;
 }
 
 .container h2{
@@ -172,7 +173,8 @@ button {
 
 .container,
 .friends-container,
-.blog-container{
+.blog-container,
+.studentkonter{
     width: 100%;
     max-width: 1000px;
     margin: 40px auto 40px;
