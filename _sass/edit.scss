@@ -174,7 +174,8 @@ button {
 .container,
 .friends-container,
 .blog-container,
-.studentkonter{
+.studentkonter,
+.studentkonter2{
     width: 100%;
     max-width: 1000px;
     margin: 40px auto 40px;
@@ -183,11 +184,6 @@ button {
 }
 
 .studentkonter2 {
-    width: 100%;
-    max-width: 1000px;
-    margin: 40px auto 40px;
-    padding: 0 20px;
-    box-sizing: border-box;
     padding-top: 50px;
 }
 .friends-container h1{
