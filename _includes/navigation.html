@@ -1,9 +1,26 @@
-<ul>
-    {% for item in site.data.navigation %}
-    <li>
-    <a href="{{ item.link }}" {% if page.url == item.link %} class="active"{% endif %}>
-        {{ item.name }}
-    </a>
-    </li>
-    {% endfor %}
-</ul>
+<header class="responsive-header">
+        <!-- <div class="header"> -->
+            <div class="logo">Workshop Web Dasar</div>
+        <!-- </div> -->
+         <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+         </button>
+         <button id="theme-toggle" class="theme-toggle">
+            <img id="theme-icon" src="/assets/images/mati.png" alt="Toggle Theme" width="24">
+          </button>
+          
+</header>
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-nav">
+        <ul>
+        {% for item in site.data.navigation %}
+        <li>
+         <a href="{{ item.link }}" {% if page.url == item.link %} class="current"{% endif %}>
+            {{ item.name | upcase }}
+         </a>
+        </li>
+            {% endfor %}
+        </ul>
+        </div>
+    </div>
+</aside>
