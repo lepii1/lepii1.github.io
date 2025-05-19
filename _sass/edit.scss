@@ -23,6 +23,10 @@ body{
     min-height: 100vh;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container .profile-section {
     display: flex;
     align-items: center;
@@ -171,7 +175,8 @@ button {
 .studentkonter,
 .studentkonter2,
 .profile-section,
-.kontener{
+.kontener,
+.post{
     width: 100%;
     max-width: 1000px;
     margin: 45px auto 40px;
