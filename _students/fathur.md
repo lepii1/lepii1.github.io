@@ -1,5 +1,5 @@
 ---
-layout: people
+layout: student
 short_name: Fathur
 name: Muhammad Fathurrahman
 nim: 2024573010004
