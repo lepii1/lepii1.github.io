@@ -1,5 +1,5 @@
 ---
-layout: student
+layout: people
 short_name: Mingjan
 name: Hamizan Putra Zulia
 nim: 2024573010013

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Students
+title: Peoples
 ---
 
 <div class="studentkonter"> 
