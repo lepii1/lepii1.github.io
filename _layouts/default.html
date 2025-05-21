@@ -23,10 +23,21 @@
 
 </head>
 <body>
+
     {% include navigation.html %}
-    <div class="container">
+
+    <dixv class="container">
     {{ content }}
+
+    <footer>
     {% include footer.html %}
+    </footer>
+    </dixv>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img src="/assets/images/myfoto.jpg" alt="profile">
     </div>
+    
 </body>
 </html>
