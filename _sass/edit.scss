@@ -27,12 +27,15 @@ html {
     scroll-behavior: smooth;
 }
 
-footer {
+.footer {
     text-align: center;
     padding: 8px;
     margin-top: 24px;
     color: lightgray;
     background-color: var(--card);
+    a{
+        color: lightgray;
+    }
 }
 
 .container .profile-section {
@@ -328,8 +331,8 @@ body.dark {
   }
   
   .dark .footer {
-    background-color: #121212;
-    color: #aaa;
+    background-color: #2a2a2a;
+    color: lightgray;
   }
   
   .sidebar.mobile-sidebar {
@@ -419,10 +422,10 @@ body.dark {
 @media (max-width: 414px) {
     .friends-list {
         display: block;
+        li{
+            margin-bottom: 15px;
     }
-    .friends-list li{
-        margin-bottom: 15px;
-    }
+}
     .sidebar.desktop-sidebar {
         display: none;
         position: fixed;
@@ -454,3 +457,4 @@ body.dark {
         padding: 5%;
     }
 }
+

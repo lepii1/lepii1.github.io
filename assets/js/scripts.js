@@ -51,3 +51,30 @@ function toggleMobileSidebar() {
   function closeModal() {
     document.getElementById("modal").style.display = "none";
   }
+
+  const text = "Halo! Saya Ahmad Aulia Fahlevi.";
+  let index = 0;
+  function typeText() {
+    const target = document.querySelector(".typing-text");
+    if (index < text.length) {
+      target.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeText, 100);
+    }
+  }
+
+  function filterSelection(category) {
+    const items = document.getElementsByClassName("filter-item");
+    if (category === "all") category = "";
+    for (let i = 0; i < items.length; i++) {
+      items[i].classList.remove("show");
+      if (items[i].className.indexOf(category) > -1) {
+        items[i].classList.add("show");
+      }
+    }
+  }
+
+  window.onload = () => {
+    filterSelection("all");
+    typeText();
+  };
