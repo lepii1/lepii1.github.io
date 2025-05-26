@@ -50,7 +50,6 @@ Materi dasar tentang penggunaan link dan list dalam HTML.
 
 ### ✅ Contoh Ordered List
 
-
 <ol>
   <li>HTML</li>
   <li>CSS</li>

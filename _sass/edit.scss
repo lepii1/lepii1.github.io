@@ -1,460 +1,86 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+$primary-color: #3b7b3a;
+$secondary-color: #fbbc05;
+$font-stack: Helvatica, sans-serif;
 
-:root{
-    --bg: #0e0e0e;
-    --text: #f1f1f1;
-    --primary : #00f7ff;
-    --secondary: #7efff5;
-    --card: #1c1c1f;
-    --hover: rgba(0, 255, 255, 0.1);
-}
-
-* {
+body,
+h1,
+h2,
+p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    background-color: #f4f6f8;
-    display: flex;
-    min-height: 100vh;
+body {
+    font-family: $font-stack;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
-html {
-    scroll-behavior: smooth;
+header {
+    text-align: center;
+    padding: 24px;
+    color: #fff;
+    background-color: $primary-color;
 }
 
-.footer {
+main {
+    padding: 24px;
+    margin-top: 24px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
     text-align: center;
     padding: 8px;
     margin-top: 24px;
-    color: lightgray;
-    background-color: var(--card);
-    a{
-        color: lightgray;
+    color: #fff;
+    background-color: $primary-color;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+nav {
+    margin: 24px 0;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $primary-color;
+    }
+    li {
+        float: left;
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 8px 16px;
+            text-decoration: none;
+            &:hover:not(.active) {
+                background-color: $secondary-color;
+            }
+        }
     }
 }
 
-.container .profile-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 40px;
-}
-
-.profile-text {
-    flex: 1;
-    min-width: 280px;
-    p {
-        margin-left: 20px;
-    }
-}
-
-.profile-image {
-    flex-shrink: 0;
-}
-
-.profile-pictures {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    background-color: #fbbc05;
- }
-
-.header-container{
-    max-width: 1100px;
+.container {
+    width: 80%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    overflow: hidden;
 }
 
-.logo {
-    display: flex;
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: black;
-}
-
-.responsive-header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background: white;
-    color: #fff;
-}
-
-.sidebar.desktop-sidebar {
-   background-color: var(--card);
-   padding: 95px 15px;
-   width: 200px;
-   position: relative;
-}
-
-.sidebar-nav ul {
-    list-style-type: none;
-}
-
-.sidebar-nav li a {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-}
-
-.sidebar-nav li a:hover,
-.sidebar-nav li a.current {
-    background-color: rgba(255, 255, 255, 0.1);
-    transform: translateY(-5px);
-}
-
-.container{
-    max-width: 1100px;
-    margin: 60px auto 40px;
-    padding: 0 20px;
-}
-
-.container h1{
-    font-size: 2.4rem;
-    color: black;
-    margin-bottom: 20px;
-    // padding-top: 50px;
-}
-
-.container h2{
-    color: black;
-    margin-top: 30px;
-}
-
-button {
-    display: flex;
-    background-color: black;
-    color: lightgray;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.hobbies {
-    list-style-type: none;
-    // width: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    padding: 0;
-    margin: 20px 0;
-}
-
-.hobbies a {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 16px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.hobbies li a {
-    background-color: var(--card);
-    padding: 18px;
-    border-radius: 10px;
-    color: lightgray;
-    font-weight: 500;
-    // display: inline-block;
-    transition: transform 0.2s;
-    text-decoration: none;
-}
-.hobbies li a:hover{
-    transform: translateY(-5px);
-}
-
-.container,
-.friends-container,
-.blog-container,
-.studentkonter,
-.studentkonter2,
-.profile-section,
-.kontener,
-.post{
-    width: 100%;
-    max-width: 1000px;
-    margin: 45px auto 40px;
-    // padding: 0 20px;
-    box-sizing: border-box;
-}
-
-.studentkonter ol{
-    padding: 10px;
-    line-height: 25px;
-}
-
-.studentkonter2 {
-    line-height: 25px;
-    padding-top: 10px;
-}
-
-.friends-container h1{
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.friends-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding: 0;
-    list-style: none;
-    li{
-    background-color: lightgray;
-    border-left: 5px solid black;
-    padding: 12px 16px;
-    border-radius: 8px;
-    transition: transform 0.2s;
-    &:hover{
-    transform: translateY(-5px);
-    text-decoration: underline;
-    a{
-        font-weight: 500;
-        text-decoration: none;
-}
-}
-}
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.blog-container h1{
-    font-size: 2.3rem;
-    margin-bottom: 16px;
-}
-.blog-container a{
-    padding: 1px;
-}
-
-.blog-container p{
-    line-height: 1.8;
-    margin-bottom: 1rex;
-}
-
-.blog-container code{
-    background-color: #0d0d0f;
-    color: lightgray;
-    padding: 4px 8px;
-    border-radius: 8px;
-}
-
-.blog-container pre{
-    background-color: #0d0d0f;
-    color: #00ffea;
-    padding: 16px;
-    border-radius: 10px;
-    overflow-x: auto;
-    margin-bottom: 24px;
-    font-family: 'Courier New', monospace;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-.theme-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: 10px;
-    padding: 5px;
-  }
-  
-  .theme-toggle img {
-    width: 40px;
-    height: 40px;
-  }
-  
-body.dark {
-    background-color: #121212;
-    color: #eaeaea;
-  }
-  
-  .dark .sidebar {
-    background-color: #1e1e1e;
-  }
-  
-  .dark .sidebar-nav li a {
-    color: #eaeaea;
-  }
-  
-  .dark .sidebar-nav li a:hover,
-  .dark .sidebar-nav li a.current {
-    background-color: rgba(255, 255, 255, 0.15);
-  }
-  
-  .dark .container h1,
-  .dark .container h2,
-  .dark a {
-    color: #ffffff;
-  }
-
-  .dark .friends-list a{
-    color: black;
-  }
-
-  .dark .blog-container pre,
-  .dark .blog-container code {
-    background-color: lightgray;
-    color: black;
-  }
-  
-  .dark .profile-pictures {
-    background-color: #333;
-  }
-  
-  .dark .hobbies li a {
-    background-color: #2a2a2a;
-    color: #fff;
-  }
-  
-  .dark .footer {
-    background-color: #2a2a2a;
-    color: lightgray;
-  }
-  
-  .sidebar.mobile-sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
+.profile-picture {
     width: 150px;
-    background-color: var(--card);
-    padding: 130px 15px;
-    transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
-    z-index: 100;
-  }
-  
-  .sidebar.mobile-sidebar.active {
-    transform: translateX(0);
-  }
-  
-.sidebar.mobile-sidebar nav {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 24px auto;
+    background-color: $secondary-color;
 }
 
-  #backdrop {
-    position: fixed;
-    inset: 0;
-    background-color: transparent;
-    display: none;
-    // z-index: 998;
-  }
-  
-  #backdrop.show {
-    display: block;
-  }
-  
-  .menu-toggle {
-    display: none;
-  }
-  
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 10000;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.9);
-    img {
-        padding-left: 40%;
-        padding-top: 10%;
-    }
+.active {
+    background-color: $secondary-color;
 }
-
-.modal-content {
-    display: flex;
-    margin: auto;
-    max-width: 80%;
-    max-height: 80%;
-    animation: zoom 0.3s;
-}
-
-@keyframes zoom {
-    from { transform: scale(0.7); }
-    to { transform: scale(1); }
-}
-
-.close {
-    position: absolute;
-    top: 40px;
-    right: 60px;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 100001;
-}
-
-@media (max-width: 414px) {
-    .friends-list {
-        display: block;
-        li{
-            margin-bottom: 15px;
-    }
-}
-    .sidebar.desktop-sidebar {
-        display: none;
-        position: fixed;
-        top: auto;
-        left: 0;
-        width: 100%;
-        background-color: black;
-        padding-bottom: 10px;
-        padding-top: 55px;
-    }
-
-    .sidebar.active {
-        display: block;
-    }
-    
-    .menu-toggle {
-        display: block;
-        font-size: 1.5rem;
-        background: none;
-        border: none;
-        color: black;
-        cursor: pointer;
-    }
-    .container {
-        margin-top: 80px;
-        padding-top: 2px;
-    }
-    .modal img {
-        padding: 5%;
-    }
-}
-

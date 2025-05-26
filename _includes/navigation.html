@@ -1,43 +1,9 @@
-<header class="responsive-header">
-
-            <div class="logo">Workshop Web Dasar</div>
-         
-            <button class="menu-toggle" onclick="toggleMobileSidebar()">
-            <i class="fas fa-bars"></i>
-         </button>
-
-         <button id="theme-toggle" class="theme-toggle">
-            <img id="theme-icon" src="/assets/images/mati.png" alt="Toggle Theme" width="24">
-          </button>
-</header>
-
-<aside class="sidebar desktop-sidebar" id="sidebar">
-    <div class="sidebar-nav">
-        <ul>
-        {% for item in site.data.navigation %}
-        <li>
-         <a href="{{ item.link }}" {% if page.url == item.link %} class="current"{% endif %}>
-            {{ item.name | upcase }}
-         </a>
-        </li>
-            {% endfor %}
-        </ul>
-        </div>
-    </div>
-</aside>
-
-<aside id="mobile-sidebar" class="sidebar mobile-sidebar">
-    <div class="sidebar-nav">
-      <ul>
-        {% for item in site.data.navigation %}
-        <li>
-            <a href="{{ item.link }}" {% if page.url == item.link %} class="block py-2"{% endif %}>
-                {{ item.name | upcase }}
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-    </div>
-  </aside>
-
-  <div id="backdrop" onclick="toggleMobileSidebar()"></div>
+<ul>
+    {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link }}" {% if page.url == item.link  %} class="active"{% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>

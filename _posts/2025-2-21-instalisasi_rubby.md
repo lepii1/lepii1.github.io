@@ -16,7 +16,17 @@ title: "Instalasi Ruby dan Jekyll"
 
 ## 🔧 Persiapan Awal
 
-### 1. Install Ruby
+### 1. Kebutuhan Aplikasi dan Tools
+
+Sistem Operasi: Windows, Linux, atau  macOS
+Integrated Development Environment: Visual Studio Code
+Web Browser: Google Chrome
+GitHub: Web-based version control repository.
+Markdown untuk menulis laporan.
+Git sebagai version control.
+Ruby dan Jekyll untuk membuat halaman web statis.
+
+### Install Ruby
 
 #### ▶ Windows
 
