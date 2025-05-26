@@ -1,0 +1,15 @@
+title: Ahmad Aulia Fahlevi
+email: ahmad_aulia077@student.pnl.ac.id
+description: 
+    Hallo saya lepi
+
+baseurl: "" 
+
+url: 'https://lepii1.github.io'
+
+github_username: lepii1
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
