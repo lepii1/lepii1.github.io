@@ -79,13 +79,3 @@ function toggleMobileSidebar() {
     typeText();
   };
 
-
-function showBranch(branchId) {
-  // Sembunyikan semua konten
-  document.querySelectorAll('.branch-section').forEach(section => {
-    section.classList.remove('active');
-  });
-
-  // Tampilkan konten sesuai tombol yang dipilih
-  document.getElementById(branchId).classList.add('active');
-}
