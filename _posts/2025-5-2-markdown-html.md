@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Belajar Markdown & HTML"
-date: 2026-03-06
+date: 2025-05-02
 ---
 
 Materi tentang Markdown dan HTML
