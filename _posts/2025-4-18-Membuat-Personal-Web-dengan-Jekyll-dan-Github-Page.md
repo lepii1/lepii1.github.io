@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Membuat Personal Web dengan Jekyll dan GitHub Page"
+title: "Laporan 2"
 date: 2025-04-18
 ---
 

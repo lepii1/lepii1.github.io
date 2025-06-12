@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Layout dan Navigasi"
+title: "Laporan 7"
 date: 2025-05-30
 ---
 
