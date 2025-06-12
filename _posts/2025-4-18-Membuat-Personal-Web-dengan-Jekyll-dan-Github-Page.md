@@ -19,7 +19,7 @@ langkah berikut ini:
 - Masuk ke dalam folder repository tersebut kemudian install Jekyll dengan perintah berikut melalui terminal.
 
 ```
-gem install jekyll bundler
+    gem install jekyll bundler
 ```
 
 - Jalankan perintah bundle init untuk inisialisasi folder terebut sebagai proyek 
@@ -27,58 +27,58 @@ jekyll seperti perintah berikut ini. Hasil dari perintah tersebut adalah file ba
 dengan nama Gemfile.
 
 ```
-bundle init
+    bundle init
 ```
 
 - Edit file Gemfile menggunakan IDE dan tambahkan kode berikut.
 
 ```
-gem "jekyll"
+    gem "jekyll"
 ```
 
 - Buat file baru dengan nama index.html, kemudian isi dengan kode berikut.
 
 ```html
-<!DOCTYPE html>
- <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
-</html>
+    <!DOCTYPE html>
+     <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+      </head>
+      <body>
+        <h1>Hello World!</h1>
+      </body>
+    </html>
 ```
 
 - Jalankan jekyll build untuk build web yang telah dibuat sehingga menhasilkan
 directory _site.
 
 ```
-jekyll build
+    jekyll build
 ```
 
 - Kemudian jalankan perintah jekyll serve untuk menjalankan web yang telah
 dibuat di web browser dengan alamat http://localhost:4000.
 
 ```
-jekyll serve
+    jekyll serve
 ```
 
 - Jira web telah berhasil dibuka, edit file Gemfile.lock dengan menambahkan
 platform linux pada bagian platform seperti pada gambar berikut.
 
 ```
-PLATFORMS
-  x86_64-linux
+    PLATFORMS
+      x86_64-linux
 ```
 
 - Selanjutnya push repositori ke GitHub dengan perintah-perintah berikut.
 
 ```
-git add .
-git commit -m "first publish"
-git push
+    git add .
+    git commit -m "first publish"
+    git push
 ```
 
 - Buat GitHub Actions untuk CI/CD agar web otomatis publish.
