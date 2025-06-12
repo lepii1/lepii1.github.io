@@ -4,7 +4,7 @@ title: "Laporan 2"
 date: 2025-04-18
 ---
 
-        Materi Tentang Membuat Personal Web dengan Jekyll dan Github Page
+    Materi Tentang Membuat Personal Web dengan Jekyll dan Github Page
 
 ## Langkah-Langkah Membuat Personal Web
 

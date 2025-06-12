@@ -4,7 +4,7 @@ title: "Laporan 1"
 date: 2025-04-04
 ---
 
-      Materi tentang Instalasi Ruby dan Jekyll
+    Materi tentang Instalasi Ruby dan Jekyll
 
 # 📘 Panduan Instalasi Jekyll dan Ruby
 
