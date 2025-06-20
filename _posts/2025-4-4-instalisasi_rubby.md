@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Laporan 1"
+title: "Instalasi Ruby dan Jekyll"
 date: 2025-04-04
 ---
 

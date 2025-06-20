@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Laporan 7"
+title: "Layout dan Navigation"
 date: 2025-05-30
 ---
 

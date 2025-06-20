@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Laporan 3"
+title: "Markdown dan HTML"
 date: 2025-05-02
 ---
 
