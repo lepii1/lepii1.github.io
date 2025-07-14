@@ -423,9 +423,6 @@ Di bawah halaman (`index.blade.php`), tambahkan:
 ```
 
 ---
-Siap! Berikut versi **lebih santai** dan **naratif lengkap** dari semua proses yang telah kamu lakukan — mulai dari setup project Laravel, instalasi Breeze, sampai fitur CRUD + notifikasi:
-
----
 
 ## 🎯 Proyek Laravel: CRUD Siswa + Notifikasi
 
