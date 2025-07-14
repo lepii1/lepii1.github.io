@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Membuat List dan Link ke Website Teman"
+title: "Praktikum 5 - Membuat List dan Link ke Website Teman"
 date: 2025-05-16
 ---
 

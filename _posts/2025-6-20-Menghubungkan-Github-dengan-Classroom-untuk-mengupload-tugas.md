@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github dan Classroom
+title: Praktikum 9 - Github dan Classroom
 date: 2025-06-20
 ---
 

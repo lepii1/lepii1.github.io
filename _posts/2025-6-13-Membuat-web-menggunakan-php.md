@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Membuat WEB dengan menggunakan bahasa PHP
+title: Praktikum 8 - Membuat WEB dengan menggunakan bahasa PHP
 date: 2025-06-13
 ---
 

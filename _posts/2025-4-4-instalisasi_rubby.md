@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Instalasi Ruby dan Jekyll"
+title: "Praktikum 1 - Instalasi Ruby dan Jekyll"
 date: 2025-04-04
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Layout dan Navigation"
+title: "Praktikum 7 - Layout dan Navigation"
 date: 2025-05-30
 ---
 

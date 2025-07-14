@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML Link dan List"
+title: "Praktikum 4 - HTML Link dan List"
 date: 2025-05-09
 ---
 

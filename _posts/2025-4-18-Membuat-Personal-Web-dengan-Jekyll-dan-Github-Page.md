@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Membuat Personal Web dengan Jekyll dan Github Page"
+title: "Praktikum 2 - Membuat Personal Web dengan Jekyll dan Github Page"
 date: 2025-04-18
 ---
 

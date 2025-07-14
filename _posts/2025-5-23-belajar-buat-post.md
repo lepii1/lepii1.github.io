@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Belajar Buat Post"
+title: "Praktikum 6 - Belajar Buat Post"
 date: 2025-05-23
 ---
 

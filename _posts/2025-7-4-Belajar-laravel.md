@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Belajar Laravel
+title: Praktikum 10 - Belajar Laravel
 date: 2025-07-04
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Markdown dan HTML"
+title: "Praktikum 3 - Markdown dan HTML"
 date: 2025-05-02
 ---
 
