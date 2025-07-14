@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Laporan 6"
+title: "Belajar Buat Post"
 date: 2025-05-23
 ---
 
