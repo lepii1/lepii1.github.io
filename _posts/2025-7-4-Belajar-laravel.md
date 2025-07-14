@@ -4,6 +4,9 @@ title: Praktikum 10 - Belajar Laravel
 date: 2025-07-04
 ---
 
+    Membuat Laravel dan CRUD Siswa
+
+
 # 🚀 Langkah Membuat Aplikasi Laravel CRUD Siswa
 
 Berikut adalah panduan step-by-step untuk membuat aplikasi CRUD data siswa menggunakan Laravel dan Breeze.
